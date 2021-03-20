@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Grupo Pana</title>
-        <style>
+       <!-- <style>
             a:link {
   color: rgb(0, 23, 128);
   background-color: transparent;
@@ -46,59 +46,75 @@ li a {
 
 li a:hover {
   background-color: #111111;
-}
+} -->
         </style>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Hind:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <meta charset="utf-8"/>
         <meta name= "description" content="Página Web de GP (Grupo Pana)"/>
         <meta name="author" content="Tegeveene">
         <meta name="keyword" content="GrupoPana, Grupo Pana, grupo pana, grupopana, GP, gp">
         <link rel="shortcut icon" type="image/x-icon" href="logo.ico"
     
-    </head>
-    <body style="text-align:center;background-color:rgb(255, 0, 0);">
+        </head>
+    <body>
         
-        <header>
-            <h1 title="Grupo Pene jejejejejejeje">Página de Grupo Pana</h1>
-            <h2 title="Tegeveene">By:Tege</h2>
-        </header>
+        <div class="header">
+            <a href="index.html"><img src="gplogo.jpg" class="titulo"></a>
+            <a id="top"></a>
+            <h4 title="Tegeveene" class="madeby">By:Tege</h4>
+        </div>
 
-        <ul style="list-style-type:none;">
-            <h1><li><a href= "admins.html" >Admins de GP</a></li>
+     <div class="opciones"><ul class="lista">
+            <a href= "admins.html" class="op"><li class="optxt">ADMINS DE GP</li></a><!--
 
-            <h1><li><a href= "miembrosreco.html" >Miembros Reconocidos</a></li>
+            --><a href= "membersrc.html" class="op"><li class="optxt">MIEMBROS RECONOCIDOS</li></a><!--
 
-            <h1><li><a href= "noticias.html" >Noticias</a></li>
+            --><a href= "noticias.html" class="op"><li class="optxt">NOTICIAS</li></a><!--            
+
+            --><a href= "reglas.html" class="op"><li class="optxt">REGLAS</li></a><!--
             
-            <h1><li><a href= "https://paypal.me/TegeGames?locale.x=es_XC" >Donaciones</a></li>
+            --><a href= "https://paypal.me/TegeGames?locale.x=es_XC" class="op"><li class="optxt">DONACIONES</li></a>
 
         </ul>
-
-        <p style="font-style:consolas-700px;">Bienvenido a la página de grupo pana o mejor conocido como GP, a continuación podrás ver información de los admins</p>
-
-        <h1>Contexto:</h1>
-        <p style="font-style:consolas-700px;">Esta página se creó con el fin de conseguir espacio en la descripción del grupo
-           por lo tanto, acá están los <ins>links</ins> de: </p>
+    </div>
+    <div class="cuerpo">
+      <img src="img/burra.jpg" class="burra">
+        <h1 class="cuerpo-bienvenida">BIENVENIDO A LA PAGINA DE GRUPO PANA</h1>
+        <p class="cuerpo-txt ">Estas en nuestra pagina informativa, aqui podrás ver información de los admins, nuestros miembros reconocidos, las ultimas noticias, nuestras reglas y apoyar al creador TGVN.</p>
+    </div>
+    <div>
+        <!--<h3>Contexto:</h3>
+        <p>Esta página se creó con el fin de conseguir espacio en la descripción del grupo
+           por lo tanto, acá están los <ins>links</ins> de: </p>-->
            
-           <h1><Strong>Discord:</Strong></h1>
+           
+          <div class="image-body">
+           <a href= "https://discord.gg/pr5Jbrae4c">
+           <img title="Discord" alt="Discord" src="img/discord.png" class="image"/>
+            <h4 class="image-text">DISCORD</h4>
+          </a>
+        </div>
+           
 
-           <a href= "https://discord.gg/pr5Jbrae4c" ><img title="Discord" width="200px" alt="Discord" src="img/discord.png" /></a>
+          <div class="image-body">
+           <a href= "Reddit.com/r/GrupoPana" ><img title="Reddit" src="img/reddit.png" class="image" /><h4 class="image-text">REDDIT</h4></a> 
+          </div>
 
-           <hr>
-
-           <h1><strong>Reddit:</strong></h1>
-
-           <a href= "Reddit.com/r/GrupoPana" ><img title="Reddit" width="200px" alt="Reddit" src="img/reddit.png" /></a>
-
-           <hr>
-
-           <h1><strong>WhatsApp:</strong></h1>
-
-           <a href= "https://chat.whatsapp.com/ER2rx8nxN5B7ykDlcDqyAo" ><img title="WhatsApp" width="200px" alt="WhatsApp" src="img/warap.png" /></a> 
-            
-        <hr>
-
-        <footer>
-            Derechos Reservador 2010-2021 TGVN
+          
+          <div class="image-body">
+           <a href= "https://chat.whatsapp.com/ER2rx8nxN5B7ykDlcDqyAo" ><img title="WhatsApp"alt="WhatsApp" src="img/whatsapp.png" class="image" /><h4 class="image-text">WHATSAPP</h4></a>
+         </div>
+      </div>
+      <div>
+      <a href="#top">
+        <img class="topbutton" src="img/flecha.jpg"></button>
+      </a>
+        </img>
+      </div>
+        <footer class="pie">
+            <p class="pie-txt">Derechos Reservador 2010-2021 TGVN</p>
         </footer>
 
 
